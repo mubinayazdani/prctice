@@ -5,3 +5,7 @@ class Human():
         self.height = height
         self.race = race
         self.address = address
+
+    def information_me(self):
+        return "Name: " + self.name + " Family: " + self.family + " My Address: " + self.address + " My Age: " + str(
+            self.age)
